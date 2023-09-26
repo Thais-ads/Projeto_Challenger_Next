@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>API-ARTCHER</name>
+    </assembly>
+    <members>
+        <member name="M:API_ARTCHER.Controllers.CadastroFilialController.CadastroFilial(API_ARTCHER.Data.DTO.FilialDto)">
+            <summary>
+            Adiciona um filme ao banco de dados
+            </summary>
+            <param name="FilialDto">Objeto com os campos necessários para criação de um filme</param>
+            <returns>IActionResult</returns>
+            <response code="201">Caso inserção seja feita com sucesso</response>
+        </member>
+        <member name="M:API_ARTCHER.Controllers.CadastroFilialController.AtualizarFilial(System.Int32,API_ARTCHER.Data.DTO.FilialDto)">
+            <summary>
+            Adiciona um filme ao banco de dados
+            </summary>
+            <param name="FilialDto">Objeto com os campos necessários para criação de um filme</param>
+            <returns>IActionResult</returns>
+            <response code="204">Caso inserção seja feita com sucesso</response>
+        </member>
+        <member name="M:API_ARTCHER.Controllers.CadastroFilialController.RecuperaFilialID(System.Int32)">
+            <summary>
+            Adiciona um filme ao banco de dados
+            </summary>
+            <param name="id">Objeto com os campos necessários para criação de um filme</param>
+            <returns>IActionResult</returns>
+            <response code="200">Caso inserção seja feita com sucesso</response>
+        </member>
+        <member name="M:API_ARTCHER.Controllers.CadastroFilialController.DeleteFilialID(System.Int32)">
+            <summary>
+            Adiciona um filme ao banco de dados
+            </summary>
+            <param name="id">Objeto com os campos necessários para criação de um filme</param>
+            <returns>IActionResult</returns>
+            <response code="204">Caso inserção seja feita com sucesso</response>
+        </member>
+        <member name="M:API_ARTCHER.Controllers.CadastroUsuarioController.RecuperaUsuarioID(System.Int32)">
+            <summary>
+            Adiciona um usuario ao banco de dados
+            </summary>
+            <param name="id">Objeto com os campos necessários para criação de um filme</param>
+            <returns>IActionResult</returns>
+            <response code="200">Caso inserção seja feita com sucesso</response>
+        </member>
+        <member name="M:API_ARTCHER.Controllers.CadastroUsuarioController.LoginUsuario(API_ARTCHER.Data.DTO.LoginDto)">
+            <summary>
+            Valida o login do Usuario ao banco de dados
+            </summary>
+            <param name="dto">Object transfer</param>
+            <returns>IActionResult</returns>
+            <response code="200">Caso inserção seja feita com sucesso</response>
+        </member>
+        <member name="M:API_ARTCHER.Controllers.CadastroUsuarioController.CadastroCliente(API_ARTCHER.Data.DTO.CreateDto)">
+            <summary>
+            Adiciona um usuario ao banco de dados
+            </summary>
+            <param name="createDto">Objeto com os campos necessários para criação de um filme</param>
+            <returns>IActionResult</returns>
+            <response code="201">Caso inserção seja feita com sucesso</response>
+        </member>
+        <member name="M:API_ARTCHER.Controllers.CadastroUsuarioController.RecuperaUsuario(System.Int32,API_ARTCHER.Data.DTO.UpdateUsuario)">
+            <summary>
+            Adiciona um usuario ao banco de dados
+            </summary>
+            <param name="UpdateUsuario">Objeto com os campos necessários para criação de um filme</param>
+            <returns>IActionResult</returns>
+            <response code="204">Caso inserção seja feita com sucesso</response>
+        </member>
+        <member name="M:API_ARTCHER.Controllers.CadastroUsuarioController.deletausuario(System.Int32)">
+            <summary>
+            apagando um usuario ao banco de dados
+            </summary>
+            <param name="id">Objeto com os campos necessários para criação de um filme</param>
+            <returns>IActionResult</returns>
+            <response code="204">Caso inserção seja feita com sucesso</response>
+        </member>
+        <member name="T:API_ARTCHER.Migrations.cadastrocontex">
+            <inheritdoc />
+        </member>
+        <member name="M:API_ARTCHER.Migrations.cadastrocontex.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:API_ARTCHER.Migrations.cadastrocontex.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:API_ARTCHER.Migrations.cadastrocontex.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
